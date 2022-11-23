@@ -1,0 +1,93 @@
+body{
+	padding: 0;
+	margin: 0;	
+	width:100vw;
+	height: 100vh;	
+	background-image:url(map.jpeg);
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.panel{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.question-container{
+	color: blanchedalmond;
+	margin: 5px;
+	padding: 5px;
+	width: 40vw;
+	height: 5vh;
+	background-color:rgb(87, 113, 144);
+	font-size: x-large;
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+	text-align: center;
+	text-transform: lowercase;
+	font-display:initial;
+	
+
+
+	
+}
+.result{
+	margin: 10px;
+	padding: 5px;
+	width:80vw;
+	height: 10vh;
+	text-align: center;
+	font-size: 50px;
+	
+}
+.option-container{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 5px;
+	padding: 10px;
+	width: 50vw;
+	height: 10vh;
+	background-color:rgb(81, 108, 139);
+		
+}
+.option{	
+	color: gray;
+	padding: 10px;
+	width: 15vw;
+	height: 10vh;
+	font-size: larger;
+	background-color: antiquewhite;
+	border-radius: 25%;
+}
+.option:hover{
+	background-color:rgb(109, 142, 182);
+}
+.navigation{
+	margin: 10px;
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	background-color:bisque;
+}
+
+.evaluate,.next{
+	width:30vw;
+	height: 8vh;
+	padding: 5px;
+	font-size: larger;
+}
+
+
+.evaluate{
+	color: bisque;
+	background-color:rgb(109, 142, 182);
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+	
+}
+
+.next{
+	color: bisque;
+	background-color:slategray;
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+}
